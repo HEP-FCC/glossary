@@ -51,7 +51,7 @@ $ gitbook serve
 You can see your local version by using a web browser to navigate to `http://localhost:4000` or wherever it says it's serving the book.
 
 
-[repo]: https://github.com/lhcb/glossary
+[repo]: https://github.com/HEP-FCC/glossary
 [license]: LICENSE.md
 [gh-fork-pull]: https://help.github.com/articles/using-pull-requests/#fork--pull
 [gh-fork]: https://help.github.com/articles/fork-a-repo/
@@ -60,6 +60,6 @@ You can see your local version by using a web browser to navigate to `http://loc
 
 <!---
 Friends of Glossary can use this:
-              {"pattern": "«([^»^:])([^»^:]+)»", "flags": "g", "substitute": "[$1$2](https://lhcb.github.io/glossary/glossary/$1.html#$1$2)"},
-              {"pattern": "«([^»]+):([^»^:])([^»^:]+)»", "flags": "g", "substitute": "[$1](https://lhcb.github.io/glossary/glossary/$2.html#$2$3)"}
+              {"pattern": "«([^»^:])([^»^:]+)»", "flags": "g", "substitute": "[$1$2](https://HEP-FCC.github.io/glossary/glossary/$1.html#$1$2)"},
+              {"pattern": "«([^»]+):([^»^:])([^»^:]+)»", "flags": "g", "substitute": "[$1](https://HEP-FCC.github.io/glossary/glossary/$2.html#$2$3)"}
 --->

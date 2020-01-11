@@ -1,6 +1,8 @@
-# LHCb Glossary   [![Build Status](https://travis-ci.com/lhcb/glossary.svg?branch=master)](https://travis-ci.com/lhcb/glossary)
+# FCC Glossary   [![Build Status](https://travis-ci.com/HEP-FCC/glossary.svg?branch=master)](https://travis-ci.com/HEP-FCC/glossary)
 
-Glossary of HEP and LHCb-specific terms and concepts - online at <https://lhcb.github.io/glossary/>.
+Glossary of HEP and FCC-specific terms and concepts - online at <https://HEP-FCC.github.io/glossary/>.
+
+This is a fork of the original page created at LHCb, a project which is highly appreciated!
 
 
 [**A**](glossary/A.md)&nbsp;&nbsp;&nbsp;&nbsp;
@@ -32,4 +34,4 @@ Glossary of HEP and LHCb-specific terms and concepts - online at <https://lhcb.g
 
 
 Contributions to the glossary are highly encouraged. Please see the
-[contributing guide](https://github.com/lhcb/glossary/blob/master/CONTRIBUTING.md) for details.
+[contributing guide](https://github.com/HEP-FCC/glossary/blob/master/CONTRIBUTING.md) for details.
