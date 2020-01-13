@@ -507,6 +507,7 @@ Or <a href="https://github.com/HEP-FCC/glossary/blob/master/CONTRIBUTING.md" tar
 <li><a href="glossary/C.html#CCT-MAGNET-CANTED-COSINE-THETA-MAGNET">CCT magnet: Canted-Cosine-Theta magnet</a></li>
 <li><a href="glossary/C.html#CDR-CONCEPTUAL-DESIGN-REPORT">CDR: Conceptual Design Report</a></li>
 <li><a href="glossary/C.html#CVMFS">CVMFS: CERN Virtual Machine File System</a></li>
+<li><a href="glossary/C.html#CONDOR-SEE-HTCONDOR">Condor: see HTCondor</a></li>
 <li><a href="glossary/D.html#DIRAC">DIRAC: Distributed Infrastructure with Remote Agent Control</a></li>
 <li><a href="glossary/D.html#DOCA">DCA: Distance Of Closest Approach</a></li>
 <li><a href="glossary/E.html#ECAL">ECAL: Electromagnetic Calorimeter</a></li>
@@ -520,6 +521,7 @@ Or <a href="https://github.com/HEP-FCC/glossary/blob/master/CONTRIBUTING.md" tar
 <li><a href="glossary/G.html#GPD">GPD: General Purpose Detector</a></li>
 <li><a href="glossary/G.html#GRID-CERTIFICATE">Grid Certificate</a></li>
 <li><a href="glossary/H.html#HCAL">HCAL: Hadronic Calorimeter</a></li>
+<li><a href="glossary/H.html#HEPPY">HEPPY</a></li>
 <li><a href="glossary/H.html#HLT">HLT: High Level Trigger</a></li>
 <li><a href="glossary/H.html#HOM-HIGHER-ORDER-MODES">HOM: Higher Order Modes</a></li>
 <li><a href="glossary/H.html#HS06">HS06</a></li>
@@ -530,7 +532,9 @@ Or <a href="https://github.com/HEP-FCC/glossary/blob/master/CONTRIBUTING.md" tar
 <li><a href="glossary/K.html#KALMAN-FILTER">Kalman Filter</a></li>
 <li><a href="glossary/L.html#LHCB">LHCb</a></li>
 <li><a href="glossary/L.html#LUMINOSITY-LEVELLING-LUMI-LEVELLING">Luminosity Levelling (lumi levelling)</a></li>
+<li><a href="glossary/M.html#MADX">MADX</a></li>
 <li><a href="glossary/M.html#MDI-MACHINE-DETECTOR-INTERFACE">MDI: Machine-Detector Interface</a></li>
+<li><a href="glossary/M.html#MDISIM">MDISim</a></li>
 <li><a href="glossary/M.html#MoU">MoU: Memorandum of Understanding</a></li>
 <li><a href="glossary/M.html#MU">mu</a></li>
 <li><a href="glossary/O.html#OT">OT: Outer Tracker</a></li>
@@ -597,7 +601,7 @@ Or <a href="https://github.com/HEP-FCC/glossary/blob/master/CONTRIBUTING.md" tar
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"A","level":"1.2","depth":1,"path":"glossary/A.md","ref":"glossary/A.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","panels@git+https://github.com/HEP-FCC/gitbook-plugin-panels.git#master","katex-auto-render@git+https://github.com/lhcb/gitbook-plugin-katex-auto-render.git#master","replace","collapsible-menu","otherlink"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"search":{},"otherlink":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"panels":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"replace":{"substitutes":[{"pattern":"«([^»^:])([^»^:]+)»","flags":"g","substitute":"[$1$2]($1.md#$1$2)"},{"pattern":"«([^»]+):([^»^:])([^»^:]+)»","flags":"g","substitute":"[$1]($2.md#$2$3)"}]},"katex-auto-render":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"The Starterkit team and contributors","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"gitbook_readme.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gitbook_readme.md","mtime":"2020-01-13T11:08:02.859Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-13T11:08:03.765Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Introduction","level":"1.1","depth":1,"next":{"title":"A","level":"1.2","depth":1,"path":"glossary/A.md","ref":"glossary/A.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-sharing","panels@git+https://github.com/HEP-FCC/gitbook-plugin-panels.git#master","katex-auto-render@git+https://github.com/lhcb/gitbook-plugin-katex-auto-render.git#master","replace","collapsible-menu","otherlink"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"collapsible-menu":{},"search":{},"otherlink":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"panels":{},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"replace":{"substitutes":[{"pattern":"«([^»^:])([^»^:]+)»","flags":"g","substitute":"[$1$2]($1.md#$1$2)"},{"pattern":"«([^»]+):([^»^:])([^»^:]+)»","flags":"g","substitute":"[$1]($2.md#$2$3)"}]},"katex-auto-render":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"The Starterkit team and contributors","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"gitbook_readme.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"gitbook_readme.md","mtime":"2020-01-13T11:14:06.263Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-01-13T11:14:07.197Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
