@@ -25,7 +25,7 @@ By contributing, you are agreeing that we may redistribute your work under [CC-B
 
    There should be two `##`, followed by the definition. If this expands to something,
    you should add that in the same line after a colon, and then put a `{#hyperlink}` to just the unexpanded term.
-   
+
    If you link to another page, please use the format `«TERM»` or `«Title:TERM»` to make the link. This should work in both the final webpage and locally on GitHub.
 
 4.  Please install the [dependencies](#dependencies) if you want to build the glossary locally.
@@ -33,11 +33,12 @@ By contributing, you are agreeing that we may redistribute your work under [CC-B
 
 ## Dependencies
 
-To build the glossary locally, install the following:
+To build the glossary locally, first follow the instructions how to install
+`gitbook-cli`:
 
-1. [Gitbook](https://github.com/GitbookIO/gitbook/blob/master/docs/setup.md)
+1. [Gitbook](https://github.com/GitbookIO/gitbook-cli)
 
-Install the Gitbook plugins:
+Afterwards, install the Gitbook plugins:
 
 ```shell
 $ gitbook install
